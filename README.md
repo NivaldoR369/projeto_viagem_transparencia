@@ -1,4 +1,8 @@
+
 # Pipeline de Dados — Viagens a Serviço (Portal da Transparência)
+
+**Autor:** Nivaldo Rodrigues
+**Finalidade:** Projeto avaliativo do curso de Análise de Dados com Python — Módulo 1.
 
 Pipeline de dados ponta a ponta em **Python + PostgreSQL**, seguindo a **Arquitetura Medallion**
 (Raw → Silver → Gold), construído para transformar os dados brutos de Viagens a Serviço do
