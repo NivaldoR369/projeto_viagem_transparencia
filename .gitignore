@@ -1,0 +1,18 @@
+# Credenciais - nunca versionar
+.env
+
+# Dados brutos - grandes demais e devem ser baixados pelo pipeline, não pelo Git
+*.zip
+*.csv
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# SO / editores
+.DS_Store
+.vscode/

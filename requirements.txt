@@ -1,0 +1,5 @@
+psycopg2-binary==2.9.9
+pandas==2.2.2
+gdown==5.2.0
+matplotlib==3.9.0
+jupyter==1.0.0
