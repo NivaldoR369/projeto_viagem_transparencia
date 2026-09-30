@@ -127,6 +127,7 @@ def carregar_csv_em_blocos(conexao, caminho_csv: Path, tabela: str) -> int:
 
     for numero_bloco, bloco in enumerate(leitor, start=1):
         colunas = ", ".join(f"col{i}" for i in range(len(bloco.columns)))
+        
         # descobre os nomes reais das colunas da tabela raw (na mesma ordem
         # do CREATE TABLE) consultando o information_schema uma única vez
         placeholders = ", ".join(["%s"] * len(bloco.columns))
