@@ -17,12 +17,16 @@
 -- =============================================================================
 
 -- ---------------------------------------------------------------------------
--- Criação do banco (rode esta linha isolada se estiver usando \i completo)
+-- PARTE 1: Criação do banco (rode esta linha isolada se estiver usando \i completo)
 -- ---------------------------------------------------------------------------
 CREATE DATABASE transparencia;
 
 -- Depois de criar o banco, conecte-se a ele antes de continuar:
 \c transparencia
+
+-- PARTE 2
+-- (o notebook de execução corta o arquivo neste marcador e roda tudo daqui
+-- pra baixo já conectado no banco "transparencia" via psycopg2)
 
 -- =============================================================================
 -- CAMADA RAW
